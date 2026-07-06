@@ -63,10 +63,27 @@ Possible next upgrades include:
 
 - Progress bar for quiz completion
 - Sound effects for correct/incorrect answers
-- More quiz categories or difficulty levels
+- More quiz categories or difficulty 
+levels
 - Better animations and transitions
 - Leaderboard-style score history
 
 ## Summary
 
 This project is a polished beginner-friendly quiz app that combines core quiz functionality with useful enhancements like persistence, pause/resume, accessibility, and responsive design.
+
+## 📊 Live Test Results
+
+## laptop
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/eb9e31b5-2571-46f2-a7be-f1c45a548659" />
+<img width="1268" height="861" alt="image" src="https://github.com/user-attachments/assets/7ed7a828-dca1-4ec4-bb94-4beb025f3dc0" />
+<img width="1332" height="852" alt="image" src="https://github.com/user-attachments/assets/b8633dd9-f607-4b31-a453-4c5391e02c10" />
+
+## Mobile
+<img width="553" height="802" alt="image" src="https://github.com/user-attachments/assets/d0435b41-3660-4d12-ba9a-ba1222543dc4" />
+<img width="538" height="782" alt="image" src="https://github.com/user-attachments/assets/ca8f8045-8b4d-4c78-b925-5848fc8f29ed" />
+
+
+
+
+
