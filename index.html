@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="quiz-box">
+    <div class="title-row" id="title-row">
+      <h1>JavaScript Quiz</h1>
+      <button id="pause-btn" type="button" aria-label="Pause quiz">Pause</button>
+    </div>
+    <div id="Instructions">
+      <h2>Instructions:</h2>
+      <ul>
+        <li>Answer the questions as quickly as possible</li>
+        <li>There are 5 questions in total</li>
+        <li>Each question has a time limit of 15 seconds</li>
+        <li>Correct answers has a marking of +1</li>
+        <li>Incorrect answers will not affect your scores</li>
+      </ul>
+    </div>
+    <div class="start-actions">
+      <button id="start-btn" type="button">Start Quiz</button>
+      <button id="resume-btn" type="button" style="display: none;" aria-label="Resume saved quiz">Resume</button>
+    </div>
+    <section id="quiz-screen" aria-label="Quiz questions">
+      <header class="top-row">
+        <span id="progress">Question 1 of 5</span>
+        <span id="timer">15</span>
+      </header>
+      <div id="status" class = "sr-only" aria-live="polite" aria-atomic="true"></div>
+      <div class="question-box" id="question-text"></div>
+      <div id="options-container"></div>
+      <footer class="bottom-row">
+        <span>Score: <span id="score">0</span></span>
+        <button id="next-btn" disabled aria-label="Next Question">Next</button>
+      </footer>
+    </section>
+
+    <section id="result-screen" aria-label="Quiz results">
+      <h2>Quiz complete!</h2>
+      <p>Your score: <span id="final-score"></span> / <span id="total-questions"></span></p>
+      <p>High score: <span id="high-score"></span></p>
+      <button id="restart-btn">Play again</button>
+    </section>
+  </main>
+<script src="javascript.js"></script>
+</body>
+</html>
